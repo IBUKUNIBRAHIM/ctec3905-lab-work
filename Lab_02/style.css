@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 85vw;
+  
+}
+nav a {
+  background-color: hsla(240, 52%, 36%, 0.705);
+  color: black;
+  padding: 0.5em;
+  margin: 0em; 
+  transition: background-color 0.7s;
+  width: 15vw;
+  
+}
+nav a:hover {
+  background-color: white;
+}
+header {
+  overflow: auto;
+}
+section{
+  overflow: auto;
+  gap: 1em;
+  
+}
+p {
+  padding-left: 5em;
+  padding-right: 5em;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  width: 70vw;
+}
