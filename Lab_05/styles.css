@@ -70,7 +70,6 @@ body {
     grid-column: 2 / 3;
     justify-self: end;
    }
-   
    form input:invalid {
     border-width: 0.5px 0.5px 0.5px 3px;
     border-left-style: solid;
